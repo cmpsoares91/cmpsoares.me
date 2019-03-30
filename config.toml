@@ -3,14 +3,14 @@ title = "cmpsoares"
 
 theme = "hugo-coder"
 
-cleanDestinationDir="true"
+#cleanDestinationDir="true"
 publishDir = "docs"
 
 languagecode = "en"
 defaultcontentlanguage = "en"
 
 paginate = 20
-RelativeURLs=true
+#RelativeURLs=true
 canonifyurls = true
 
 pygmentsstyle = "b2"
