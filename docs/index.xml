@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cmpsoares</title>
+    <link>http://www.cmpsoares.com/</link>
+    <description>Recent content on cmpsoares</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    
+	<atom:link href="http://www.cmpsoares.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About Me</title>
+      <link>http://www.cmpsoares.com/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.cmpsoares.com/about/</guid>
+      <description>I am a Curious Automation Hacker &amp;amp; Versatile Site Reliability and Big Data Engineer currently living in Lisboa, Portugal. Born in the Netherlands and raised with the traits and benefits of a multicultural education, which made me a very inquisitive Computer Science Engineer and a technology enthusiast.
+My professional interests range from SRE, Monitoring, Analytics, Automation, Big Data, Distributed System to Datahub and Microservice Platform Architectures, including the many tools and programming languages that are related to it (i.</description>
+    </item>
+    
+    <item>
+      <title>CMPSOARES Comment Policy</title>
+      <link>http://www.cmpsoares.com/cmpsoares-comment-policy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.cmpsoares.com/cmpsoares-comment-policy/</guid>
+      <description>We want you to feel at home when you post a comment on CMPSOARES. We want everyone to feel at home posting comments on CMPSOARES. We don’t know what your home is like, but we know how we expect people to behave when they visit ours. That’s why we reserve the right to delete comments and ban users as needed to keep the comment threads here civil and substantive.
+Our No.</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>http://www.cmpsoares.com/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.cmpsoares.com/contact/</guid>
+      <description>Follow me, @johndoe.</description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>http://www.cmpsoares.com/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.cmpsoares.com/projects/</guid>
+      <description>Nothing to see here&amp;hellip; Move along!</description>
+    </item>
+    
+  </channel>
+</rss>
