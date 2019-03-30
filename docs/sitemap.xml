@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://www.cmpsoares.com/posts/my-first-post/</loc>
+    <lastmod>2019-03-26T07:31:58+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.cmpsoares.com/posts/about-me/</loc>
+    <lastmod>2019-03-26T07:20:13+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.cmpsoares.com/about/</loc>
   </url>
   
@@ -12,6 +22,12 @@
   
   <url>
     <loc>http://www.cmpsoares.com/contact/</loc>
+  </url>
+  
+  <url>
+    <loc>http://www.cmpsoares.com/posts/</loc>
+    <lastmod>2019-03-26T07:31:58+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -25,6 +41,7 @@
   
   <url>
     <loc>http://www.cmpsoares.com/</loc>
+    <lastmod>2019-03-26T07:31:58+00:00</lastmod>
     <priority>0</priority>
   </url>
   

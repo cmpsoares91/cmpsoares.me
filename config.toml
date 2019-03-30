@@ -2,6 +2,8 @@ baseurl = "http://www.cmpsoares.com"
 title = "cmpsoares"
 
 theme = "hugo-coder"
+
+cleanDestinationDir="true"
 publishDir = "docs"
 
 languagecode = "en"
