@@ -14,7 +14,7 @@ pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
 googleanalytics = "UA-137270540-1"
-disqusShortname = "yourdiscussshortname"
+disqusShortname = "cmpsoares"
 
 [params]
     author = "Carlos Soares"
