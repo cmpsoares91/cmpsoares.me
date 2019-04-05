@@ -30,7 +30,7 @@ disqusShortname = "cmpsoares"
     info = "Curious Automation Hacker & Versatile Site Reliability and Big Data Engineer"
     avatarurl = "images/avatar.jpg"
     # footercontent = "Living is learning, one day at a time."
-    footercontent = "This project is still being build and designed so don't be surprised if you find some empty pages..."
+    footercontent = "This project is still being built and designed so don't be surprised if you find some empty pages..."
 
     dateformat = "January 2, 2006"
 
