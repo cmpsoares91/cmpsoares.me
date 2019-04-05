@@ -1,5 +1,5 @@
 baseurl = "http://www.cmpsoares.com"
-title = "cmpsoares"
+title = "CMPSOARES - Carlos Soares' Personal Webpage and blog"
 
 theme = "hugo-coder"
 
@@ -24,7 +24,7 @@ disqusShortname = "cmpsoares"
 [params]
     author = "Carlos Soares"
     description = "Carlos Soares' personal website and blog"
-    keywords = "blog,developer,personal,devops,sre,site reliability,engineer,go,terraform,automation,monitoring,obsevability,analytics,automation,big data,distributed,datahub,microservice,architecture,docker,kafka, elasticsearch,cassandra,python,nodejs,java,innovation,artificial intelligence,cryptocurrencies,blockchain,startup"
+    keywords = "carlos, soares, cmpsoares, blog,developer,personal,devops,sre,site reliability,engineer,go,terraform,automation,monitoring,obsevability,analytics,automation,big data,distributed,datahub,microservice,architecture,docker,kafka, elasticsearch,cassandra,python,nodejs,java,innovation,artificial intelligence,cryptocurrencies,blockchain,startup"
     info = "Curious Automation Hacker & Versatile Site Reliability and Big Data Engineer"
     avatarurl = "images/avatar.jpg"
     # footercontent = "Living is learning, one day at a time."
