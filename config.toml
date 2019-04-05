@@ -27,7 +27,8 @@ disqusShortname = "cmpsoares"
     keywords = "blog,developer,personal,devops,sre,site reliability,engineer,go,terraform,automation,monitoring,obsevability,analytics,automation,big data,distributed,datahub,microservice,architecture,docker,kafka, elasticsearch,cassandra,python,nodejs,java,innovation,artificial intelligence,cryptocurrencies,blockchain,startup"
     info = "Curious Automation Hacker & Versatile Site Reliability and Big Data Engineer"
     avatarurl = "images/avatar.jpg"
-    footercontent = "Living is learning, one day at a time."
+    # footercontent = "Living is learning, one day at a time."
+    footercontent = "This project is still being build and designed so don't be surprised if you find some empty pages..."
 
     dateformat = "January 2, 2006"
 
@@ -35,7 +36,7 @@ disqusShortname = "cmpsoares"
     hideCopyright = false
 
     # Git Commit in Footer, uncomment the line below to enable it.
-    commit = "https://github.com/cmpsoares91/cmpsoares.com/tree/"
+    # commit = "https://github.com/cmpsoares91/cmpsoares.com/tree/"
 
     rtl = false
 
