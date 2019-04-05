@@ -1,5 +1,7 @@
 baseurl = "http://www.cmpsoares.com"
-title = "CMPSOARES - Carlos Soares' Personal Webpage and blog"
+title = "CMPSOARES"
+
+# TODO: figure out if I can append something to title for META Title with more detail.
 
 theme = "hugo-coder"
 
