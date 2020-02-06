@@ -3,7 +3,7 @@ title = "CMPSOARES"
 
 # TODO: figure out if I can append something to title for META Title with more detail.
 
-theme = "hugo-coder"
+theme = "LoveIt"
 
 publishDir = "docs"
 
