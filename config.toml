@@ -24,7 +24,7 @@ copyright = "This work is licensed under a Creative Commons Attribution-NonComme
 # date format
 dateFormatToUse = "2006-01-02"
 # Use Dark mode as default
-default_theme = "dark_theme"
+#default_theme = "dark_theme"
 # Setting publishDir default for GitHub
 publishDir = "docs"
 
