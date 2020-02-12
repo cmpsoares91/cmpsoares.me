@@ -1,6 +1,6 @@
 +++
 categories = ["about-the-blog"]
-date = 2019-03-26T07:31:58Z
+date = 2020-02-12T07:31:58Z
 description = "I will start with the blog when I finish the main pages of this project: my personal website"
 externalLink = ""
 series = []
