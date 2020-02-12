@@ -5,7 +5,7 @@ description = "I will start with the blog when I finish the main pages of this p
 externalLink = ""
 series = []
 slug = "something-coming-soon"
-tags = []
+tags = ["about", "blog"]
 title = "Something's coming soon"
 
 +++
