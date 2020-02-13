@@ -161,6 +161,12 @@ Facebook = true
 Linkedin = true
 Reddit = true
 Twitter = true
+Pinterest = true
+Hackernews = true
+Mix = true
+Tumblr = true
+VKontakte = true
+Weibo = true
 enable = true
 [params.social]
 GitHub = "cmpsoares91"
@@ -188,6 +194,6 @@ useSessionStorage = true
 [privacy.youtube]
 privacyEnhanced = true
 [sitemap]
-changefreq = "weekly"
+changefreq = "daily"
 filename = "sitemap.xml"
 priority = 0.5
