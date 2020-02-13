@@ -1,4 +1,4 @@
-baseURL = "http://www.cmpsoares.com"
+baseURL = "https://www.cmpsoares.com"
 # website language
 languageCode = "en"
 # [en, zh, ...] determines which i18n file to use
