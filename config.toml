@@ -65,7 +65,7 @@ weight = 4
 identifier = "contact"
 name = "Contact Me"
 url = "contact"
-weight = "1"
+weight = "5"
 [outputFormats.MarkDown]
 isHTML = false
 isPlainText = true
