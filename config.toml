@@ -1,346 +1,193 @@
 baseURL = "https://www.cmpsoares.com"
-# website language
-languageCode = "en"
-# [en, zh, ...] determines which i18n file to use
-defaultContentLanguage = "en"
-# website title
-title = "CMPSOARES"
-# theme
-theme = "LoveIt"
-# whether to use git commit log to generate lastmod record
-enableGitInfo = false
-# whether to include chinese/japanese/korean
-hasCJKLanguage = false
-# default amount of posts in each pages
-paginate = 12
-# whether to use emoji code
-enableEmoji = true
-# whether to use robots.txt
-enableRobotsTXT = true
-# [UA-XXXXXXXX-X] google analytics code
-googleAnalytics = "UA-137270540-1"
-# copyright description used only for seo schema
 copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
-# date format
-dateFormatToUse = "2006-01-02"
-# Use Dark mode as default
-#default_theme = "dark_theme"
-# Setting publishDir default for GitHub
+dateFormatToUse = 2006-01-02T00:00:00Z
+defaultContentLanguage = "en"
+enableEmoji = true
+enableGitInfo = false
+enableRobotsTXT = true
+googleAnalytics = "UA-137270540-1"
+hasCJKLanguage = false
+languageCode = "en"
+paginate = 12
 publishDir = "docs"
-
-# Markup related configuration in Hugo
-[markup]
-  # Syntax Highlighting (https://gohugo.io/content-management/syntax-highlighting)
-  [markup.highlight]
-    codeFences = true
-    guessSyntax = true
-    lineNoStart = 1
-    lineNos = true
-    lineNumbersInTable = true
-    noClasses = false
-    style = "monokai"
-    tabWidth = 4
-  # Goldmark is from Hugo 0.60 the default library used for Markdown
-  [markup.goldmark]
-    [markup.goldmark.extensions]
-      definitionList = true
-      footnote = true
-      linkify = true
-      strikethrough = true
-      table = true
-      taskList = true
-      typographer = true
-    [markup.goldmark.renderer]
-      # whether to use HTML tags directly in the document
-      unsafe = true
-  # Table Of Contents settings
-  [markup.tableOfContents]
-    startLevel = 2
-    endLevel = 6
-
-# Author Info
-[author]
-  name = "Carlos Soares"
-  link = "http://www.cmpsoares.com/"
-
-# Sitemap Info
-[sitemap]
-  changefreq = "weekly"
-  filename = "sitemap.xml"
-  priority = 0.5
-
-# Permalinks Info (https://gohugo.io/content-management/urls/#permalinks)
+theme = "LoveIt"
+title = "CMPSOARES"
 [Permalinks]
-  posts = ":year/:month/:filename"
-
-# Menu Info
-[menu]
-  [[menu.main]]
-    identifier = "posts"
-    name = "Posts"
-    url = "posts"
-    weight = 1
-
-  [[menu.main]]
-    identifier = "tags"
-    name = "Tags"
-    url = "tags"
-    weight = 2
-
-  [[menu.main]]
-    identifier = "categories"
-    name = "Categories"
-    url = "categories"
-    weight = 3
-
-  [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "about"
-    weight = 4
-
-[params]
-  # LoveIt theme version
-  version = "0.1.X"
-  # site description
-  description = "Carlos Soares' personal website and blog"
-  # site keywords
-  keywords = ["carlos", "soares", "cmpsoares", "blog", "developer", "personal", "devops", "sre", "site reliability", "engineer", "go", "terraform", "automation", "monitoring", "obsevability", "analytics", "automation", "big data", "distributed", "datahub", "microservice", "architecture", "docker", "kafka", "elasticsearch", "cassandra", "python", "nodejs", "java", "innovation", "artificial intelligence", "cryptocurrencies", "blockchain", "startup", "agile", "scrum", "kanban", "scrumban"]
-
-  # Home Page Info
-  ## [post, other] home mode
-  home_mode = "post"
-  ## special amount of posts in each home post page
-  home_paginate = 6
-  ## URL of avatar shown in home page
-  avatar = "images/avatar.png"
-  ## subtitle shown in home page
-  subtitle = "Curious Automation Hacker & Versatile Site Reliability and Big Data Engineer"
-
-  # whether to show social share links in post page
-  socialShare = true
-
-  # Footer CopyRight Info
-  ## Site creation time
-  since = 2019
-  ## ICP info only in China (HTML format is allowed)
-  icp = ""
-  ## license info (HTML format is allowed)
-  license= '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
-
-  # public git repo url to link lastmod git commit only then enableGitInfo is true
-  gitRepo = "https://github.com/cmpsoares91/cmpsoares.com"
-
-  # mathematical formulas (KaTeX)
-  [params.math]
-    enable = true
-    block_left_delimiter = ""
-    block_right_delimiter = ""
-    inline_left_delimiter = "$"
-    inline_right_delimiter = "$"
-    # KaTeX extension copy_tex
-    copy_tex = true
-    # KaTeX extension mhchem
-    mhchem = true
-
-  # whether to show link to Raw Markdown content of the post
-  linkToMarkdown = true
-
-  # site verification code for Google/Bing/Yandex/Pinterest/Baidu
-  google_verification = ""
-  bing_verification = ""
-  yandex_verification = ""
-  pinterest_verification = ""
-  baidu_verification = ""
-
-  # CSS and JS Files CDN
-  [params.cdn]
-    ## for example '<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.10.1/css/all.min.css" integrity="sha256-fdcFNFiBMrNfWL6OcAGQz6jDgNTRxnrLEd4vJYFWScE=" crossorigin="anonymous">'
-    fontawesome_free_css = ''
-    animate_css = ''
-    gitalk_css = ''
-    gitalk_js = ''
-    valine_js = ''
-    jquery_js = ''
-    lazysizes_js = ''
-    smooth_scroll_js = ''
-    katex_css = ''
-    katex_js = ''
-    katex_auto_render_js = ''
-    katex_copy_tex_css = ''
-    katex_copy_tex_js = ''
-    katex_mhchem_js = ''
-    mermaid_js = ''
-    echarts_js = ''
-    echarts_macarons_js = ''
-    typeit_js = ''
-    jquery_countdown_js = ''
-    aplayer_css = ''
-    aplayer_js = ''
-    meting_js = ''
-
-  # Gravatar Info for preferred avatar in home page
-  [params.gravatar]
-    email = ""
-
-  # Social Info in home page
-  [params.social]
-    GitHub = "cmpsoares91"
-    Linkedin = "cmpsoares"
-    Twitter = "cmpsoares"
-    #Instagram = "cmpsoares91"
-    #Email = "contact@cmpsoares.com"
-    #Facebook = "cmpsoares91"
-    #Telegram = "xxxx"
-    Medium = "cmpsoares91"
-    Gitlab = "cmpsoares91"
-    #Youtubelegacy = "xxxx"
-    #Youtubecustom = "xxxx"
-    #Youtubechannel = "xxxx"
-    #Tumblr ="xxxx"
-    Quora = "Carlos-Soares-2"
-    #Keybase = "xxxx"
-    #Pinterest = "xxxx"
-    #Reddit = "cmpsoares"
-    #Codepen = "xxxx"
-    #FreeCodeCamp = "xxxx"
-    #Bitbucket = "xxxx"
-    Stackoverflow = "cmpsoares91"
-    #Weibo = "xxxx"
-    #Odnoklassniki = "xxxx"
-    #VKontakte = "xxxx"
-    #Flickr = "xxxx"
-    #Xing = "xxxx"
-    #Snapchat = "xxxx"
-    #Soundcloud = "xxxx"
-    #Spotify = "xxxx"
-    #Bandcamp = "xxxx"
-    #Paypal = "cmpsoares91@gmail.com"
-    #Fivehundredpx = "xxxx"
-    #Mix = "xxxx"
-    #Goodreads = "xxxx"
-    #Lastfm = "xxxx"
-    #Foursquare = "xxxx"
-    #Hackernews = "xxxx"
-    #Kickstarter = "xxxx"
-    #Patreon = "xxxx"
-    #Steam = "xxxx"
-    #Twitch = "xxxx"
-    #Strava = "xxxx"
-    #Skype = "cmps91"
-    #Whatsapp = "xxxx"
-    #Zhihu = "xxxx"
-    #Douban = "xxxx"
-    #Angellist = "xxxx"
-    #Slidershare = "xxxx"
-    #Jsfiddle = "xxxx"
-    #Deviantart = "xxxx"
-    #Behance = "xxxx"
-    #Dribble = "xxxx"
-    #Wordpress = "xxxx"
-    #Vine = "xxxx"
-    #Googlescholar = "jg3KmTEAAAAJ"
-    #Researchgate = "Carlos_Pacheco_Soares"
-    #Mastodon = "xxxx"
-    #Thingiverse = "xxxx"
-    #Devto = "xxxx"
-    #Gitea = "xxxx"
-    #XMPP = "xxxx"
-    #Matrix ="xxxx"
-
-  # Social Share Links in post page
-  [params.share]
-    enable = true
-    Twitter = true
-    Facebook = true
-    Reddit = true
-    Linkedin = true
-    #Pinterest = true
-    #HackerNews = true
-    #Mix = true
-    #Tumblr = true
-    #VKontakte = true
-    #Weibo = true
-
-  # Publisher Info just for SEO
-  [params.publisher]
-    name = "Carlos Soares"
-    [params.publisher.logo]
-      url = "logo.png"
-      width = 127
-      height = 40
-
-  # Website Log Info just for SEO
-  [params.logo]
-    url = "logo.png"
-    width = 127
-    height = 40
-
-  # Website Image Info just for SEO
-  [params.image]
-    url = "cover.png"
-    width = 800
-    height = 600
-
-  # Disqus Comment Config (https://disqus.com/)
-  [params.disqus]
-    # Disqus shortname to use Disqus in posts
-    shortname = "cmpsoares"
-
-  # Gittalk Comment Config (https://github.com/gitalk/gitalk)
-  [params.gitalk]
-    enable = false
-    owner = ""
-    repo = ""
-    clientId = ""
-    clientSecret = ""
-
-  # Valine Comment Config (https://github.com/xCss/Valine)
-  [params.valine]
-    enable = false
-    appId = ""
-    appKey = ""
-    notify = false
-    verify = true
-    avatar = "mp"
-    placeholder = "Your comment ..."
-    visitor = true
-    recordIP = true
-
-  # Facebook Comment Config (https://developers.facebook.com/docs/plugins/comments)
-  [params.facebook]
-    enable = false
-    width = "100%"
-    numPosts = 10
-    appId = ""
-    languageCode = "en_US"
-
-# Privacy Info (https://gohugo.io/about/hugo-and-gdpr/)
-[privacy]
-  [privacy.googleAnalytics]
-    anonymizeIP = false
-    disable = false
-    respectDoNotTrack = false
-    useSessionStorage = true
-
-  [privacy.youtube]
-    privacyEnhanced = true
-
-# Options to make output .md files
-[mediaTypes]
-  [mediaTypes."text/plain"]
-    suffixes = ["md"]
-
-# Options to make output .md files
+posts = ":year/:month/:filename"
+[author]
+link = "http://www.cmpsoares.com/"
+name = "Carlos Soares"
+[markup.goldmark.extensions]
+definitionList = true
+footnote = true
+linkify = true
+strikethrough = true
+table = true
+taskList = true
+typographer = true
+[markup.goldmark.renderer]
+unsafe = true
+[markup.highlight]
+codeFences = true
+guessSyntax = true
+lineNoStart = 1
+lineNos = true
+lineNumbersInTable = true
+noClasses = false
+style = "monokai"
+tabWidth = 4
+[markup.tableOfContents]
+endLevel = 6
+startLevel = 2
+[mediaTypes."text/plain"]
+suffixes = ["md"]
+[[menu.main]]
+identifier = "posts"
+name = "Posts"
+url = "posts"
+weight = 1
+[[menu.main]]
+identifier = "tags"
+name = "Tags"
+url = "tags"
+weight = 2
+[[menu.main]]
+identifier = "categories"
+name = "Categories"
+url = "categories"
+weight = 3
+[[menu.main]]
+identifier = "about"
+name = "About Me"
+url = "about"
+weight = 4
+[[menu.main]]
+identifier = "contact"
+name = "Contact Me"
+url = "contact"
+weight = "1"
 [outputFormats.MarkDown]
-  mediaType = "text/plain"
-  isPlainText = true
-  isHTML = false
-
-# Options to make hugo output files
+isHTML = false
+isPlainText = true
+mediaType = "text/plain"
 [outputs]
-  home = ["HTML", "RSS"]
-  page = ["HTML", "MarkDown"]
-  section = ["HTML", "RSS"]
-  taxonomy = ["HTML", "RSS"]
-  taxonomyTerm = ["HTML"]
+home = ["HTML", "RSS"]
+page = ["HTML", "MarkDown"]
+section = ["HTML", "RSS"]
+taxonomy = ["HTML", "RSS"]
+taxonomyTerm = ["HTML"]
+[params]
+avatar = "images/avatar.png"
+description = "Carlos Soares' personal website and blog"
+gitRepo = "https://github.com/cmpsoares91/cmpsoares.com"
+home_mode = "post"
+home_paginate = 6
+icp = ""
+keywords = ["carlos", "soares", "cmpsoares", "blog", "developer", "personal", "devops", "sre", "site reliability", "engineer", "go", "terraform", "automation", "monitoring", "obsevability", "analytics", "automation", "big data", "distributed", "datahub", "microservice", "architecture", "docker", "kafka", "elasticsearch", "cassandra", "python", "nodejs", "java", "innovation", "artificial intelligence", "cryptocurrencies", "blockchain", "startup", "agile", "scrum", "kanban", "scrumban"]
+license = "<a rel=\"license external nofollow noopener noreffer\" href=\"https://creativecommons.org/licenses/by-nc/4.0/\" target=\"_blank\">CC BY-NC 4.0</a>"
+since = 2019
+socialShare = true
+subtitle = "Curious Automation Hacker & Versatile Site Reliability and Big Data Engineer"
+version = "0.1.X"
+[params.cdn]
+animate_css = ""
+aplayer_css = ""
+aplayer_js = ""
+echarts_js = ""
+echarts_macarons_js = ""
+fontawesome_free_css = ""
+gitalk_css = ""
+gitalk_js = ""
+jquery_countdown_js = ""
+jquery_js = ""
+katex_auto_render_js = ""
+katex_copy_tex_css = ""
+katex_copy_tex_js = ""
+katex_css = ""
+katex_js = ""
+katex_mhchem_js = ""
+lazysizes_js = ""
+mermaid_js = ""
+meting_js = ""
+smooth_scroll_js = ""
+typeit_js = ""
+valine_js = ""
+[params.disqus]
+shortname = "cmpsoares"
+[params.facebook]
+appId = ""
+enable = false
+languageCode = "en_US"
+numPosts = 10
+width = "100%"
+[params.gitalk]
+clientId = ""
+clientSecret = ""
+enable = false
+owner = ""
+repo = ""
+[params.gravatar]
+email = ""
+[params.image]
+height = 600
+url = "cover.png"
+width = 800
+[params.logo]
+height = 40
+url = "logo.png"
+width = 127
+[params.math]
+baidu_verification = ""
+bing_verification = ""
+block_left_delimiter = ""
+block_right_delimiter = ""
+copy_tex = true
+enable = true
+google_verification = ""
+inline_left_delimiter = "$"
+inline_right_delimiter = "$"
+linkToMarkdown = true
+mhchem = true
+pinterest_verification = ""
+yandex_verification = ""
+[params.publisher]
+name = "Carlos Soares"
+[params.publisher.logo]
+height = 40
+url = "logo.png"
+width = 127
+[params.share]
+Facebook = true
+Linkedin = true
+Reddit = true
+Twitter = true
+enable = true
+[params.social]
+GitHub = "cmpsoares91"
+Gitlab = "cmpsoares91"
+Linkedin = "cmpsoares"
+Medium = "cmpsoares91"
+Quora = "Carlos-Soares-2"
+Stackoverflow = "cmpsoares91"
+Twitter = "cmpsoares"
+[params.valine]
+appId = ""
+appKey = ""
+avatar = "mp"
+enable = false
+notify = false
+placeholder = "Your comment ..."
+recordIP = true
+verify = true
+visitor = true
+[privacy.googleAnalytics]
+anonymizeIP = false
+disable = false
+respectDoNotTrack = false
+useSessionStorage = true
+[privacy.youtube]
+privacyEnhanced = true
+[sitemap]
+changefreq = "weekly"
+filename = "sitemap.xml"
+priority = 0.5
