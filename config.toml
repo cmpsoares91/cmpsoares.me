@@ -78,7 +78,7 @@ taxonomy = ["HTML", "RSS"]
 taxonomyTerm = ["HTML"]
 [params]
 avatar = "images/avatar.png"
-description = "Carlos Soares' personal website and blog"
+description = "Carlos Soares personal website and blog"
 gitRepo = "https://github.com/cmpsoares91/cmpsoares.com"
 home_mode = "post"
 home_paginate = 6
@@ -158,13 +158,13 @@ url = "logo.png"
 width = 127
 [params.share]
 Facebook = true
-Linkedin = true
-Reddit = true
-Twitter = true
-Pinterest = true
 Hackernews = true
+Linkedin = true
 Mix = true
+Pinterest = true
+Reddit = true
 Tumblr = true
+Twitter = true
 VKontakte = true
 Weibo = true
 enable = true
