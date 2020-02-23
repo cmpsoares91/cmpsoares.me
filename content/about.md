@@ -1,7 +1,14 @@
-+++
-title = "About Me"
-slug = "about"
-+++
+---
+title: "About Me"
+date: 2019-03-26T07:31:58Z
+lastmod: 2020-02-23T07:31:58Z
+draft: false
+author: "Carlos Soares"
+author_link: "https://www.cmpsoares.com/"
+description: "I am a Curious Automation Hacker & Versatile Site Reliability and Big Data Engineer currently living in Lisboa, Portugal."
+slug: "about"
+license: "<a rel=\"license external nofollow noopener noreffer\" href=\"https://creativecommons.org/licenses/by-nc/4.0/\" target=\"_blank\">CC BY-NC 4.0</a>"
+---
 
 I am a Curious Automation Hacker & Versatile Site Reliability and Big Data Engineer currently living in Lisboa, Portugal. Born in the Netherlands and raised with the traits and benefits of a multicultural education, which made me a very inquisitive Computer Science Engineer and a technology enthusiast.
 
