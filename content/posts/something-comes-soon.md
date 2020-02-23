@@ -9,7 +9,7 @@ description: "Well, I always dreamed of creating a blog, writing my own technica
 slug: "something-coming-soon"
 show_in_homepage: true
 description_as_summary: false
-license: ""
+license: "<a rel=\"license external nofollow noopener noreffer\" href=\"https://creativecommons.org/licenses/by-nc/4.0/\" target=\"_blank\">CC BY-NC 4.0</a>"
 
 tags: [
   "about",
@@ -18,9 +18,6 @@ tags: [
 categories: [
   "about-the-blog",
 ]
-
-# featured_image: /images/emoji.jpg
-# featured_image_preview: ""
 
 comment: true
 toc: false
