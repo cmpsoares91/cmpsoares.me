@@ -11,3 +11,6 @@ license: "<a rel=\"license external nofollow noopener noreffer\" href=\"https://
 ---
 
 Nothing to see here yet... Move along!
+
+Justing adding a test adsense script below:
+<!--adsense-->
