@@ -317,6 +317,11 @@ dateFormatToUse = "2006-01-02"
     numPosts = 10
     appId = ""
     languageCode = "en_US"
+  
+  [params.ads]
+    [params.ads.adsense]
+      client = "ca-pub-9080200840721283"
+      inArticleSlot = ""
 
 # Privacy Info (https://gohugo.io/about/hugo-and-gdpr/)
 [privacy]
