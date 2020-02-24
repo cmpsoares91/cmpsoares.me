@@ -3,7 +3,7 @@ title: "{{ replace .TranslationBaseName "-" " " | title }}"
 date: {{ .Date }}
 lastmod: {{ .Date }}
 draft: true
-author: "Carlos Soares"
+author: "Carlos Manuel Soares"
 author_link: "https://www.cmpsoares.com/"
 description: ""
 slug: ""

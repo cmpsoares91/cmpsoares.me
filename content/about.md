@@ -3,7 +3,7 @@ title: "About Me"
 date: 2019-03-26T07:31:58Z
 lastmod: 2020-02-23T07:31:58Z
 draft: false
-author: "Carlos Soares"
+author: "Carlos Manuel Soares"
 author_link: "https://www.cmpsoares.com/"
 description: "I am a Curious Automation Hacker & Versatile Site Reliability and Big Data Engineer currently living in Lisboa, Portugal."
 slug: "about"

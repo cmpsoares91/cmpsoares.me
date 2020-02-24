@@ -3,7 +3,7 @@ title: "Contact"
 date: 2019-03-26T07:31:58Z
 lastmod: 2020-02-23T07:31:58Z
 draft: false
-author: "Carlos Soares"
+author: "Carlos Manuel Soares"
 author_link: "https://www.cmpsoares.com/"
 description: "If you want to reach out to me for work-related topics, ask for some insights or for a cup of coffee or beer, feel free to reach out to using social media or shoot me an email."
 slug: "contact"
