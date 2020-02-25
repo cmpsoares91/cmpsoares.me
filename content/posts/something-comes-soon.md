@@ -3,7 +3,7 @@ author: "Carlos Manuel Soares"
 author_link: "https://www.cmpsoares.com/"
 title: "Something is coming soon"
 date: 2019-03-26T07:31:58Z
-lastmod: 2020-02-127T21:11:00Z
+lastmod: 2020-02-257T14:42:00Z
 draft: false
 description: "Well, I always dreamed of creating a blog, writing my own technical endeavourings for other technician, engineers and curious minds to read. However, I must say it has been my most procrastinated goal ever."
 slug: "something-coming-soon"
