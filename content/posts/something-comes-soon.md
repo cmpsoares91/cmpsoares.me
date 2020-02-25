@@ -1,14 +1,14 @@
 ---
 author: "Carlos Manuel Soares"
 author_link: "https://www.cmpsoares.com/"
-title: "Something's coming soon"
+title: "Something\'s coming soon"
 date: 2019-03-26T07:31:58Z
 lastmod: 2020-02-127T21:11:00Z
 draft: false
 description: "Well, I always dreamed of creating a blog, writing my own technical endeavourings for other technician, engineers and curious minds to read. However, I must say it has been my most procrastinated goal ever."
 slug: "something-coming-soon"
 show_in_homepage: true
-description_as_summary: false
+description_as_summary: true
 license: "<a rel=\"license external nofollow noopener noreffer\" href=\"https://creativecommons.org/licenses/by-nc/4.0/\" target=\"_blank\">CC BY-NC 4.0</a>"
 
 tags: [

@@ -9,7 +9,7 @@
 
         {{- /* Content */ -}}
         <div class="post-content">
-            {{- partial "hook/content.html" .Content | replace "<!--adsense-->" (partial "ads-adsense-inarticle.html" .Content) | safeHTML -}}
+            {{- replace "<!--adsense-->" (partial "ads-adsense-inarticle.html" (partial "hook/content.html" .Content)) | safeHTML -}}
         </div>
     </div>
 {{- end -}}
