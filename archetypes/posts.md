@@ -25,3 +25,5 @@ comment: true
 ---
 
 <!--more-->
+
+<!--adsense-->

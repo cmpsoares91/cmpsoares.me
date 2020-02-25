@@ -321,7 +321,7 @@ dateFormatToUse = "2006-01-02"
   [params.ads]
     [params.ads.adsense]
       client = "ca-pub-9080200840721283"
-      inArticleSlot = ""
+      inArticleSlot = "9080200840721283"
 
 # Privacy Info (https://gohugo.io/about/hugo-and-gdpr/)
 [privacy]
