@@ -1,7 +1,7 @@
 ---
 author: "Carlos Manuel Soares"
 author_link: "https://www.cmpsoares.com/"
-title: "Something\'s coming soon"
+title: "Something\\'s coming soon"
 date: 2019-03-26T07:31:58Z
 lastmod: 2020-02-127T21:11:00Z
 draft: false
