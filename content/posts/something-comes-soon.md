@@ -1,5 +1,5 @@
 ---
-title: Something's coming soon
+title: Something is coming soon
 categories:
 - about-the-blog
 date: 2019-03-26T07:31:58.000+00:00
