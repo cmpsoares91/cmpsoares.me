@@ -21,4 +21,4 @@ I hope to develop a sort of contact form in the near future, but it's still on t
 
 Hope to hear from you soon.
 
-Carlos Soares.
+Carlos Manuel Soares.
