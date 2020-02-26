@@ -3,12 +3,6 @@ label: Blog Post
 hide_body: false
 fields:
 - type: text
-  name: author
-  label: author
-- type: text
-  name: author_link
-  label: author_link
-- type: text
   name: title
   label: title
 - type: datetime
@@ -17,36 +11,62 @@ fields:
 - type: datetime
   name: lastmod
   label: lastmod
+- type: text
+  name: author
+  label: author
+  default: Carlos Manuel Soares
+  hidden: false
+- type: text
+  name: author_link
+  label: author_link
+  default: https://cmpsoares.com/
 - type: textarea
   name: description
   label: description
+- type: boolean
+  name: description_as_summary
+  label: description_as_summary
+  default: true
 - type: text
   name: slug
   label: slug
 - type: boolean
   name: show_in_homepage
   label: show_in_homepage
-- type: boolean
-  name: description_as_summary
-  label: description_as_summary
+  default: true
 - type: textarea
   name: license
   label: license
+  default: <a rel=\"license external nofollow noopener noreffer\" href=\"https://creativecommons.org/licenses/by-nc/4.0/\"
+    target=\"_blank\">CC BY-NC 4.0</a>
+  hidden: true
 - type: list
   name: tags
   label: tags
 - type: list
   name: categories
   label: categories
-- type: boolean
-  name: comment
-  label: comment
+- name: featuredImage
+  type: text
+  config:
+    required: false
+  label: featuredImage
+- name: featuredImagePreview
+  type: text
+  config:
+    required: false
+  label: featuredImagePreview
 - type: boolean
   name: toc
   label: toc
 - type: boolean
   name: auto_collapse_toc
   label: auto_collapse_toc
+  default: true
 - type: boolean
   name: math
   label: math
+- type: boolean
+  name: comment
+  label: comment
+  default: true
