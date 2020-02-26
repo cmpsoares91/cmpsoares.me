@@ -70,3 +70,5 @@ fields:
   name: comment
   label: comment
   default: true
+pages:
+- content/posts/something-comes-soon.md
