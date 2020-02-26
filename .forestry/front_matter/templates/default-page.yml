@@ -14,15 +14,24 @@ fields:
 - type: text
   name: author
   label: author
+  default: Carlos Manuel Soares
 - type: text
   name: author_link
   label: author_link
+  default: https://cmpsoares.com/
 - type: textarea
   name: description
   label: description
+- name: description_as_summary
+  type: boolean
+  label: description_as_summary
+  default: true
 - type: text
   name: slug
   label: slug
 - type: textarea
   name: license
   label: license
+  default: <a rel=\"license external nofollow noopener noreffer\" href=\"https://creativecommons.org/licenses/by-nc/4.0/\"
+    target=\"_blank\">CC BY-NC 4.0</a>
+  hidden: true
