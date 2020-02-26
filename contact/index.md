@@ -1,6 +1,5 @@
 # Contact
 
-
 Hello,
 
 If you want to reach out to me for work-related topics, ask for some insights or for a cup of coffee or beer, feel free to reach out to using social media or shoot me an email to `contact[at]cmpsoares.com`.
