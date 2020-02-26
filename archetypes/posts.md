@@ -4,7 +4,7 @@ date: {{ .Date }}
 lastmod: {{ .Date }}
 draft: true
 author: "Carlos Manuel Soares"
-author_link: "https://www.cmpsoares.com/"
+author_link: "https://cmpsoares.com/"
 description: ""
 slug: ""
 show_in_homepage: true
@@ -13,7 +13,6 @@ license: "<a rel=\"license external nofollow noopener noreffer\" href=\"https://
 
 tags: []
 categories: []
-hiddenFromHomePage: false
 
 featuredImage: ""
 featuredImagePreview: ""

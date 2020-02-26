@@ -13,7 +13,7 @@ tags:
 - blog
 lastmod: 2020-02-26T15:00:00+00:00
 author: Carlos Manuel Soares
-author_link: https://www.cmpsoares.com/
+author_link: https://cmpsoares.com/
 license: <a rel=\"license external nofollow noopener noreffer\" href=\"https://creativecommons.org/licenses/by-nc/4.0/\"
   target=\"_blank\">CC BY-NC 4.0</a>
 show_in_homepage: true
