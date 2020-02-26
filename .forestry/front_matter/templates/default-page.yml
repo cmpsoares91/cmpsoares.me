@@ -36,5 +36,6 @@ fields:
     target=\"_blank\">CC BY-NC 4.0</a>
   hidden: true
 pages:
+- content/cmpsoares-comment-policy.md
 - content/contact.md
 - content/projects.md

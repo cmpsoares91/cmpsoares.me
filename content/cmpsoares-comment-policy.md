@@ -1,15 +1,20 @@
 ---
-title: "CMPSOARES Comment Policy"
-date: 2019-03-26T07:31:58Z
-lastmod: 2020-02-23T07:31:58Z
-draft: false
-author: "Carlos Manuel Soares"
-author_link: "https://www.cmpsoares.com/"
-description: "We want you to feel at home when you post a comment on CMPSOARES. We want everyone to feel at home posting comments on CMPSOARES. We don’t know what your home is like, but we know how we expect people to behave when they visit ours. That’s why we reserve the right to delete comments and ban users as needed to keep the comment threads here civil and substantive."
-slug: "cmpsoares-comment-policy"
-license: "<a rel=\"license external nofollow noopener noreffer\" href=\"https://creativecommons.org/licenses/by-nc/4.0/\" target=\"_blank\">CC BY-NC 4.0</a>"
----
+title: CMPSOARES Comment Policy
+date: 2019-03-26T07:31:58.000+00:00
+lastmod: 2020-02-23T07:31:58.000+00:00
+author: Carlos Manuel Soares
+author_link: https://www.cmpsoares.com/
+description: We want you to feel at home when you post a comment on CMPSOARES. We
+  want everyone to feel at home posting comments on CMPSOARES. We don’t know what
+  your home is like, but we know how we expect people to behave when they visit ours.
+  That’s why we reserve the right to delete comments and ban users as needed to keep
+  the comment threads here civil and substantive.
+slug: cmpsoares-comment-policy
+license: <a rel=\"license external nofollow noopener noreffer\" href=\"https://creativecommons.org/licenses/by-nc/4.0/\"
+  target=\"_blank\">CC BY-NC 4.0</a>
+description_as_summary: true
 
+---
 We want you to feel at home when you post a comment on CMPSOARES. We want everyone to feel at home posting comments on CMPSOARES. We don’t know what your home is like, but we know how we expect people to behave when they visit ours. That’s why we reserve the right to delete comments and ban users as needed to keep the comment threads here civil and substantive.
 
 Our No. 1 house rule is simple: **Don’t be a jerk**.
