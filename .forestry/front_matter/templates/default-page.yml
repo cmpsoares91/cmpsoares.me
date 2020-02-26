@@ -1,0 +1,28 @@
+---
+label: default page
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: datetime
+  name: lastmod
+  label: lastmod
+- type: text
+  name: author
+  label: author
+- type: text
+  name: author_link
+  label: author_link
+- type: textarea
+  name: description
+  label: description
+- type: text
+  name: slug
+  label: slug
+- type: textarea
+  name: license
+  label: license
