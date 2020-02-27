@@ -12,7 +12,7 @@
             },
         {{- end -}}
         {{- with .Site.Params.description -}}
-            "description": {{ . }},
+            "description": "{{ . }}",
         {{- end -}}
         {{- with .Site.Params.image -}}
             "image": "{{ .url | absURL }}",
@@ -21,9 +21,9 @@
             "thumbnailUrl": "{{ .url | absURL }}",
         {{- end -}}
         {{- with .Site.Copyright -}}
-            "license": {{ . }},
+            "license": "{{ . }}",
         {{- end -}}
-        "name": {{ .Site.Title }}
+        "name": "{{ .Site.Title }}"
     }
     </script>
 
@@ -33,7 +33,7 @@
     {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
-        "headline": {{ .Title }},
+        "headline": "{{ .Title }}",
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "{{ .Permalink }}"
