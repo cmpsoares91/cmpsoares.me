@@ -12,7 +12,7 @@
             },
         {{- end -}}
         {{- with .Site.Params.description -}}
-            "description": "{{ . }}",
+            "description": {{ . }},
         {{- end -}}
         {{- with .Site.Params.image -}}
             "image": "{{ .url | absURL }}",
@@ -21,9 +21,9 @@
             "thumbnailUrl": "{{ .url | absURL }}",
         {{- end -}}
         {{- with .Site.Copyright -}}
-            "license": "{{ . }}",
+            "license": {{ . }},
         {{- end -}}
-        "name": "{{ .Site.Title }}"
+        "name": {{ .Site.Title }}
     }
     </script>
 
@@ -33,7 +33,7 @@
     {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
-        "headline": "{{ .Title }}",
+        "headline": {{ .Title }},
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "{{ .Permalink }}"
@@ -60,12 +60,12 @@
         "wordcount": {{ .WordCount }},
         "url": "{{ .Permalink }}",
         {{- if not .PublishDate.IsZero -}}
-            "datePublished": "{{ .PublishDate.Format "2006-01-02T15:04:05-07:00" | htmlUnescape  | safeHTML }}",
+            "datePublished": {{ .PublishDate.Format "2006-01-02T15:04:05-07:00" | safeHTML }},
         {{- else if not .Date.IsZero -}}
-            "datePublished": "{{ .Date.Format "2006-01-02T15:04:05-07:00" | htmlUnescape | safeHTML }}",
+            "datePublished": {{ .Date.Format "2006-01-02T15:04:05-07:00" | safeHTML }},
         {{- end -}}
         {{- with .Lastmod -}}
-            "dateModified": "{{ .Format "2006-01-02T15:04:05-07:00" | htmlUnescape | safeHTML }}",
+            "dateModified": {{ .Format "2006-01-02T15:04:05-07:00" | safeHTML }},
         {{- end -}}
         {{- with .Site.Copyright -}}
             "license": "{{ . }}",
