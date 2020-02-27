@@ -1,5 +1,5 @@
 ---
-title: Something is coming soon
+title: Something's coming soon
 categories:
 - about-the-blog
 date: 2019-03-26T07:31:58.000+00:00
@@ -11,7 +11,7 @@ slug: something-coming-soon
 tags:
 - about
 - blog
-lastmod: 2020-02-26T15:00:00.000+00:00
+lastmod: 2020-02-27T06:25:00+00:00
 author: Carlos Manuel Soares
 author_link: https://cmpsoares.com/
 license: <a rel=\"license external nofollow noopener noreffer\" href=\"https://creativecommons.org/licenses/by-nc/4.0/\"
