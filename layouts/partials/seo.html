@@ -33,7 +33,7 @@
     {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
-        "headline": "{{ .Title }}",
+        "headline": {{ .Title | safeHTML }},
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "{{ .Permalink }}"
