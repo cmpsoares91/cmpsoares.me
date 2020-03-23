@@ -27,11 +27,11 @@
         {{- with .Site.Author.name -}}
             "author": {
                 "@type": "Person",
-                "name": "{{ . | jsonify }}"
+                "name": "{{ . }}"
             },
         {{- end -}}
         {{- with .Site.Params.description -}}
-            "description": "{{ . | jsonify }}",
+            "description": "{{ . }}",
         {{- end -}}
         {{- with .Site.Params.image -}}
             "image": "{{ .url | absURL }}",
@@ -40,9 +40,9 @@
             "thumbnailUrl": "{{ .url | absURL }}",
         {{- end -}}
         {{- with .Site.Copyright -}}
-            "license": "{{ . | jsonify }}",
+            "license": "{{ . }}",
         {{- end -}}
-        "name": "{{ .Site.Title | jsonify }}"
+        "name": "{{ .Site.Title }}"
     }
     </script>
 
@@ -52,7 +52,7 @@
     {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
-        "headline": "{{ .Title | jsonify }}",
+        "headline": "{{ .Title }}",
         "inLanguage": "{{ .Site.LanguageCode }}",
         "mainEntityOfPage": {
             "@type": "WebPage",
@@ -81,12 +81,12 @@
             "dateModified": "{{ .Format "2006-01-02" }}",
         {{- end -}}
         {{- with .Site.Copyright -}}
-            "license": "{{ . | jsonify }}",
+            "license": "{{ . }}",
         {{- end -}}
         {{- with .Site.Params.publisher -}}
             "publisher": {
                 "@type": "Organization",
-                "name": "{{ .name | jsonify }}",
+                "name": "{{ .name }}",
                 "logo": {
                 "@type": "ImageObject",
                 "url": "{{ .logo.url | absURL }}",
@@ -98,10 +98,10 @@
         {{- with .Params.author | default .Site.Author.name | default (T "author") -}}
             "author": {
                 "@type": "Person",
-                "name": "{{ . | jsonify }}"
+                "name": "{{ . }}"
             },
         {{- end -}}
-        "description": "{{ .Description | jsonify }}"
+        "description": "{{ .Description }}"
     }
     </script>
 {{- end -}}
