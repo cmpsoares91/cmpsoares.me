@@ -31,7 +31,7 @@
             },
         {{- end -}}
         {{- with .Site.Params.description -}}
-            "description": "{{ . }}",
+            "description": {{ . }},
         {{- end -}}
         {{- with .Site.Params.image -}}
             "image": "{{ .url | absURL }}",
@@ -42,7 +42,7 @@
         {{- with .Site.Copyright -}}
             "license": "{{ . }}",
         {{- end -}}
-        "name": "{{ .Site.Title }}"
+        "name": {{ .Site.Title }}
     }
     </script>
 
@@ -52,7 +52,7 @@
     {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
-        "headline": "{{ .Title }}",
+        "headline": {{ .Title }},
         "inLanguage": "{{ .Site.LanguageCode }}",
         "mainEntityOfPage": {
             "@type": "WebPage",
@@ -73,12 +73,12 @@
         "wordcount": {{ .WordCount }},
         "url": "{{ .Permalink }}",
         {{- if not .PublishDate.IsZero -}}
-            "datePublished": "{{ .PublishDate.Format "2006-01-02" }}",
+            "datePublished": {{ .PublishDate.Format "2006-01-02T15:04:05-07:00" | safeJS }},
         {{- else if not .Date.IsZero -}}
-            "datePublished": "{{ .Date.Format "2006-01-02" }}",
+            "datePublished": {{ .Date.Format "2006-01-02T15:04:05-07:00" | safeJS }},
         {{- end -}}
         {{- with .Lastmod -}}
-            "dateModified": "{{ .Format "2006-01-02" }}",
+            "dateModified": {{ .Format "2006-01-02T15:04:05-07:00" | safeJS }},
         {{- end -}}
         {{- with .Site.Copyright -}}
             "license": "{{ . }}",
@@ -101,7 +101,7 @@
                 "name": "{{ . }}"
             },
         {{- end -}}
-        "description": "{{ .Description }}"
+        "description": {{ .Description | safeJS }}
     }
     </script>
 {{- end -}}
