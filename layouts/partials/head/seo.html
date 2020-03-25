@@ -73,12 +73,12 @@
         "wordcount": {{ .WordCount }},
         "url": "{{ .Permalink }}",
         {{- if not .PublishDate.IsZero -}}
-            "datePublished": {{ .PublishDate.Format "2006-01-02T15:04:05-07:00" | safeJS }},
+            "datePublished": {{ .PublishDate.Format "2006-01-02T15:04:05-07:00" | safeHTML }},
         {{- else if not .Date.IsZero -}}
-            "datePublished": {{ .Date.Format "2006-01-02T15:04:05-07:00" | safeJS }},
+            "datePublished": {{ .Date.Format "2006-01-02T15:04:05-07:00" | safeHTML }},
         {{- end -}}
         {{- with .Lastmod -}}
-            "dateModified": {{ .Format "2006-01-02T15:04:05-07:00" | safeJS }},
+            "dateModified": {{ .Format "2006-01-02T15:04:05-07:00" | safeHTML }},
         {{- end -}}
         {{- with .Site.Copyright -}}
             "license": "{{ . }}",
@@ -101,7 +101,7 @@
                 "name": "{{ . }}"
             },
         {{- end -}}
-        "description": {{ .Description | safeJS }}
+        "description": {{ .Description | safeHTML }}
     }
     </script>
 {{- end -}}
