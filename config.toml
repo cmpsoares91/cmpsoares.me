@@ -210,6 +210,7 @@ enableEmoji = true
           # Disqus Comment Config (https://disqus.com/)
           [languages.en.params.comment.disqus]
             # Disqus shortname to use Disqus in posts
+            enable = true
             shortname = "cmpsoares"
 
 [params]
