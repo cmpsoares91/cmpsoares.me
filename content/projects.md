@@ -3,7 +3,7 @@ title: Projects
 date: 2019-03-26T07:31:58.000+00:00
 lastmod: 2020-02-23T07:31:58.000+00:00
 author: Carlos Manuel Soares
-author_link: https://www.cmpsoares.com/
+author_link: https://www.cmpsoares.me/
 description: Nothing to see here yet...
 slug: projects
 license: <a rel=\"license external nofollow noopener noreffer\" href=\"https://creativecommons.org/licenses/by-nc/4.0/\"

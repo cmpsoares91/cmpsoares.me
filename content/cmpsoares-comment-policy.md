@@ -3,7 +3,7 @@ title: CMPSOARES Comment Policy
 date: 2019-03-26T07:31:58.000+00:00
 lastmod: 2020-02-23T07:31:58.000+00:00
 author: Carlos Manuel Soares
-author_link: https://www.cmpsoares.com/
+author_link: https://www.cmpsoares.me/
 description: We want you to feel at home when you post a comment on CMPSOARES. We
   want everyone to feel at home posting comments on CMPSOARES. We don’t know what
   your home is like, but we know how we expect people to behave when they visit ours.
@@ -41,7 +41,7 @@ Although we can’t be everywhere at once, here are some of the kinds of comment
 
  * **Threats — no matter how vague — against the author or other commenters.** Things can get heated. Before you casually mention your foe’s home address, think of your Mother Earth. (Bonus points if you never use the phrase “Mother Earth.”)
 
- * **Racism, sexism, homophobia, you get the drift.** Call us the PC Police, fine, but don’t say we didn’t warn you when you get tased. **And by tased, we mean banned or deleted. CMPSOARES.com has not — and will not — ever own a taser, and even if we were to own a solar-charged taser, we’d be too scared to use it.
+ * **Racism, sexism, homophobia, you get the drift.** Call us the PC Police, fine, but don’t say we didn’t warn you when you get tased. **And by tased, we mean banned or deleted. cmpsoares.me has not — and will not — ever own a taser, and even if we were to own a solar-charged taser, we’d be too scared to use it.
 
  * **Trolling.** If you’re a climate denier just out for a good trolling and are not contributing meaningfully to the conversation, we’ll be pushing you back under the bridge.
 

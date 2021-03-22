@@ -27,7 +27,7 @@ Although we can’t be everywhere at once, here are some of the kinds of comment
 
  * **Threats — no matter how vague — against the author or other commenters.** Things can get heated. Before you casually mention your foe’s home address, think of your Mother Earth. (Bonus points if you never use the phrase “Mother Earth.”)
 
- * **Racism, sexism, homophobia, you get the drift.** Call us the PC Police, fine, but don’t say we didn’t warn you when you get tased. **And by tased, we mean banned or deleted. CMPSOARES.com has not — and will not — ever own a taser, and even if we were to own a solar-charged taser, we’d be too scared to use it.
+ * **Racism, sexism, homophobia, you get the drift.** Call us the PC Police, fine, but don’t say we didn’t warn you when you get tased. **And by tased, we mean banned or deleted. cmpsoares.me has not — and will not — ever own a taser, and even if we were to own a solar-charged taser, we’d be too scared to use it.
 
  * **Trolling.** If you’re a climate denier just out for a good trolling and are not contributing meaningfully to the conversation, we’ll be pushing you back under the bridge.
 

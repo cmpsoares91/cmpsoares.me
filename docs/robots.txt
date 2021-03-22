@@ -61,4 +61,4 @@ Disallow: /
 User-agent: ZoominfoBot
 Disallow: /
 
-Sitemap: https://cmpsoares.com/sitemap.xml
+Sitemap: https://cmpsoares.me/sitemap.xml

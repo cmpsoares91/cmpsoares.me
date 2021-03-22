@@ -1,4 +1,4 @@
-baseURL = "https://cmpsoares.com"
+baseURL = "https://cmpsoares.me"
 publishDir = "docs"
 # website language
 laungageCode = "en"
@@ -59,7 +59,7 @@ dateFormatToUse = "2006-01-02"
 # Author Info
 [author]
   name = "Carlos Manuel Soares"
-  link = "https://cmpsoares.com/"
+  link = "https://cmpsoares.me/"
 
 # Sitemap Info
 [sitemap]
@@ -133,7 +133,7 @@ dateFormatToUse = "2006-01-02"
   license = '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
 
   # public git repo url to link lastmod git commit only then enableGitInfo is true
-  gitRepo = "https://github.com/cmpsoares91/cmpsoares.com"
+  gitRepo = "https://github.com/cmpsoares91/cmpsoares.me"
 
   # mathematical formulas (KaTeX)
   [params.math]
@@ -193,7 +193,7 @@ dateFormatToUse = "2006-01-02"
     Linkedin = "cmpsoares"
     Twitter = "cmpsoares"
     #Instagram = "xxxx"
-    Email = "contact@cmpsoares.com"
+    Email = "contact@cmpsoares.me"
     #Facebook = "xxxx"
     Telegram = "cmpsoares"
     Medium = "@cmpsoares"

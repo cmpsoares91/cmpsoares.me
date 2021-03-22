@@ -19,7 +19,7 @@ fields:
 - type: text
   name: author_link
   label: author_link
-  default: https://cmpsoares.com/
+  default: https://cmpsoares.me/
 - type: textarea
   name: description
   label: description

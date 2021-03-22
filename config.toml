@@ -1,4 +1,4 @@
-baseURL = "https://cmpsoares.com"
+baseURL = "https://cmpsoares.me"
 publishDir = "docs"
 # [en, zh-cn, fr, ...] determines default content language
 defaultContentLanguage = "en"
@@ -76,7 +76,7 @@ enableEmoji = true
         identifier = "github"
         pre = "<i class='fab fa-github fa-fw'></i>"
         name = ""
-        url = "https://github.com/cmpsoares91/cmpsoares.com"
+        url = "https://github.com/cmpsoares91/cmpsoares.me"
         title = "GitHub"
         weight = 6
       [languages.en.params]
@@ -114,7 +114,7 @@ enableEmoji = true
           Linkedin = "cmpsoares"
           Twitter = "cmpsoares"
           # Instagram = "xxxx"
-          Email = "contact@cmpsoares.com"
+          Email = "contact@cmpsoares.me"
           # Facebook = "xxxx"
           Telegram = "cmpsoares"
           Medium = "@cmpsoares"
@@ -217,7 +217,7 @@ enableEmoji = true
   # LoveIt theme version
   version = "0.1.X"
   # public git repo url only then enableGitInfo is true
-  gitRepo = "https://github.com/cmpsoares91/cmpsoares.com"
+  gitRepo = "https://github.com/cmpsoares91/cmpsoares.me"
   # which hash function used for SRI, when empty, no SRI is used ("sha256", "sha384", "sha512", "md5")
   fingerprint = ""
   # Header info
@@ -318,7 +318,7 @@ enableEmoji = true
     gitalkJS = ''
     # valine@1.3.10 https://valine.js.org/
     valineJS = ''
-  # Advertisement Parameters (cmpsoares.com specific customization)
+  # Advertisement Parameters (cmpsoares.me specific customization)
   [params.ads]
     [params.ads.adsense]
       client = "ca-pub-9080200840721283"
@@ -357,7 +357,7 @@ enableEmoji = true
 # Author Info
 [author]
   name = "Carlos Manuel Soares"
-  link = "https://cmpsoares.com/"
+  link = "https://cmpsoares.me/"
 
 # Sitemap Info
 [sitemap]

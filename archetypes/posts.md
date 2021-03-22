@@ -4,7 +4,7 @@ date: {{ .Date }}
 lastmod: {{ .Date }}
 draft: true
 author: "Carlos Manuel Soares"
-author_link: "https://cmpsoares.com/"
+author_link: "https://cmpsoares.me/"
 description: ""
 slug: ""
 show_in_homepage: true

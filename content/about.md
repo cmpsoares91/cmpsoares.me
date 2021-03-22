@@ -3,7 +3,7 @@ title: About Me
 date: 2019-03-26T07:31:58.000+00:00
 lastmod: 2020-02-23T07:31:58.000+00:00
 author: Carlos Manuel Soares
-author_link: https://www.cmpsoares.com/
+author_link: https://www.cmpsoares.me/
 description: I am a Curious Automation Hacker & Versatile Site Reliability and Big
   Data Engineer currently living in Lisboa, Portugal.
 slug: about
