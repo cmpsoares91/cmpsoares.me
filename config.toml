@@ -45,40 +45,49 @@ enableEmoji = true
         title = ""
         weight = 1
       [[languages.en.menu.main]]
+        identifier = "art"
+        # you can add extra information before the name (HTML format is allowed), such as icons
+        pre = ""
+        name = "Art"
+        url = "/art/"
+        # title will be shown when you hover on this menu link.
+        title = ""
+        weight = 2
+      [[languages.en.menu.main]]
         identifier = "tags"
         pre = ""
         name = "Tags"
         url = "/tags/"
         title = ""
-        weight = 2
+        weight = 3
       [[languages.en.menu.main]]
         identifier = "categories"
         pre = ""
         name = "Categories"
         url = "/categories/"
         title = ""
-        weight = 3
+        weight = 4
       [[languages.en.menu.main]]
         identifier = "about"
         pre = ""
         name = "About Me"
         url = "/about/"
         title = ""
-        weight = 4
+        weight = 5
       [[languages.en.menu.main]]
         identifier = "contact"
         pre = ""
         name = "Contact Me"
         url = "/contact/"
         title = ""
-        weight = 5
+        weight = 6
       [[languages.en.menu.main]]
         identifier = "github"
         pre = "<i class='fab fa-github fa-fw'></i>"
         name = ""
         url = "https://github.com/cmpsoares91/cmpsoares.me"
         title = "GitHub"
-        weight = 6
+        weight = 7
       [languages.en.params]
         # site description
         description = "Carlos Soares' personal website and blog"
